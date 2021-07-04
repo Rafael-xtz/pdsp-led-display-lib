@@ -1,0 +1,53 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/data/data/com.termux/files/home/tools/c/pdsp211x/src/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+A0	./funcoes_display.h	/^		bool A0;$/;"	m	class:Display_pdsp	typeref:typename:bool
+A1	./funcoes_display.h	/^		bool A1;$/;"	m	class:Display_pdsp	typeref:typename:bool
+A2	./funcoes_display.h	/^		bool A2;$/;"	m	class:Display_pdsp	typeref:typename:bool
+A3	./funcoes_display.h	/^		bool A3;$/;"	m	class:Display_pdsp	typeref:typename:bool
+CE	./funcoes_display.h	/^		bool CE;$/;"	m	class:Display_pdsp	typeref:typename:bool
+D0	./funcoes_display.h	/^		bool D0;$/;"	m	class:Display_pdsp	typeref:typename:bool
+D1	./funcoes_display.h	/^		bool D1;$/;"	m	class:Display_pdsp	typeref:typename:bool
+D2	./funcoes_display.h	/^		bool D2;$/;"	m	class:Display_pdsp	typeref:typename:bool
+D3	./funcoes_display.h	/^		bool D3;$/;"	m	class:Display_pdsp	typeref:typename:bool
+D4	./funcoes_display.h	/^		bool D4;$/;"	m	class:Display_pdsp	typeref:typename:bool
+D5	./funcoes_display.h	/^		bool D5;$/;"	m	class:Display_pdsp	typeref:typename:bool
+D6	./funcoes_display.h	/^		bool D6;$/;"	m	class:Display_pdsp	typeref:typename:bool
+D7	./funcoes_display.h	/^		bool D7;$/;"	m	class:Display_pdsp	typeref:typename:bool
+Display_pdsp	./funcoes_display.cpp	/^Display_pdsp::Display_pdsp(){$/;"	f	class:Display_pdsp
+Display_pdsp	./funcoes_display.h	/^class Display_pdsp{$/;"	c
+FL	./funcoes_display.h	/^		bool FL;$/;"	m	class:Display_pdsp	typeref:typename:bool
+Tacc	./funcoes_display.cpp	/^const int Tacc = 130;$/;"	v	typeref:typename:const int
+Tah	./funcoes_display.cpp	/^const int Tah = 20;$/;"	v	typeref:typename:const int
+Tas	./funcoes_display.cpp	/^const int Tas = 10;$/;"	v	typeref:typename:const int
+Tbw	./funcoes_display.cpp	/^const int Tbw = 30;$/;"	v	typeref:typename:const int
+Tceh	./funcoes_display.cpp	/^const int Tceh = 0;$/;"	v	typeref:typename:const int
+Tces	./funcoes_display.cpp	/^const int Tces = 0;$/;"	v	typeref:typename:const int
+Tclr	./funcoes_display.cpp	/^const double Tclr = 0.003;$/;"	v	typeref:typename:const double
+Tdh	./funcoes_display.cpp	/^const int Tdh = 20;$/;"	v	typeref:typename:const int
+Tds	./funcoes_display.cpp	/^const int Tds = 50;$/;"	v	typeref:typename:const int
+Trc	./funcoes_display.cpp	/^const int Trc = 300;$/;"	v	typeref:typename:const int
+Tw	./funcoes_display.cpp	/^const int Tw =  100;$/;"	v	typeref:typename:const int
+WR	./funcoes_display.h	/^		bool WR;$/;"	m	class:Display_pdsp	typeref:typename:bool
+_DISPLAY_PDSP	./funcoes_display.h	/^#define _DISPLAY_PDSP$/;"	d
+main	./testa_funcoes_display.cpp	/^main ( int argc, char *argv[] )$/;"	f	typeref:typename:int
+outputADRESS	./funcoes_display.cpp	/^void Display_pdsp:: outputADRESS(){$/;"	f	class:Display_pdsp	typeref:typename:void
+outputCE	./funcoes_display.cpp	/^void Display_pdsp:: outputCE(){$/;"	f	class:Display_pdsp	typeref:typename:void
+outputDATA	./funcoes_display.cpp	/^void Display_pdsp:: outputDATA(){$/;"	f	class:Display_pdsp	typeref:typename:void
+outputFL	./funcoes_display.cpp	/^void Display_pdsp:: outputFL(){$/;"	f	class:Display_pdsp	typeref:typename:void
+outputWR	./funcoes_display.cpp	/^void Display_pdsp:: outputWR(){$/;"	f	class:Display_pdsp	typeref:typename:void
+setADRESS	./funcoes_display.cpp	/^void Display_pdsp:: setADRESS(bool a3, bool a2, bool a1, bool a0){$/;"	f	class:Display_pdsp	typeref:typename:void
+setCE	./funcoes_display.cpp	/^void Display_pdsp:: setCE(bool ce){$/;"	f	class:Display_pdsp	typeref:typename:void
+setDATA	./funcoes_display.cpp	/^void Display_pdsp:: setDATA(bool d7, bool d6, bool d5, bool d4, bool d3, bool d2, bool d1, bool /;"	f	class:Display_pdsp	typeref:typename:void
+setDisplayBrightness	./funcoes_display.cpp	/^void Display_pdsp:: setDisplayBrightness(int brightness){$/;"	f	class:Display_pdsp	typeref:typename:void
+setFL	./funcoes_display.cpp	/^void Display_pdsp:: setFL(bool fl){$/;"	f	class:Display_pdsp	typeref:typename:void
+setWR	./funcoes_display.cpp	/^void Display_pdsp:: setWR(bool wr){$/;"	f	class:Display_pdsp	typeref:typename:void
+~Display_pdsp	./funcoes_display.cpp	/^Display_pdsp::~Display_pdsp(){$/;"	f	class:Display_pdsp
