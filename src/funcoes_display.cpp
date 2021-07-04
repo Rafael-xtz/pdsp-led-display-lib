@@ -19,6 +19,7 @@
 #include        <cstdlib>
 #include        <ctime>
 #include	<utime.h>
+#include	<unistd.h>
 #include        <stdbool.h>
 #include	<iostream>
 #include	"funcoes_display.h"
@@ -26,17 +27,17 @@
 
 
 using namespace std;
-const int Tbw = 30;
-const int Tacc = 130;
-const int Tas = 10;
+const int Tbw = 300000;
+const int Tacc = 1300000;
+const int Tas = 100000;
 const int Tces = 0;
-const int Tah = 20;
+const int Tah = 200000;
 const int Tceh = 0;
-const int Tw =  100;
-const int Tds = 50;
-const int Tdh = 20;
-const int Trc = 300;
-const double Tclr = 0.003;
+const int Tw =  1000000;
+const int Tds = 50000;
+const int Tdh = 200000;
+const int Trc = 3000000;
+const double Tclr = 3000;
 
 
 Display_pdsp::Display_pdsp(){
@@ -163,6 +164,18 @@ void Display_pdsp:: setDisplayBrightness(int brightness){
 		break;
 	
 	}
+// Temporização para mudancas de status
+
+
+	outputFL();
+	outputDATA();
+	usleep(Tces);
+	outputCE();
+	usleep(Tas);
+	outputWR();
+	usleep(Tdh);
+	outputDATA();
+
 
 }
 

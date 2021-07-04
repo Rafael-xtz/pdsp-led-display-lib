@@ -33,12 +33,6 @@ main ( int argc, char *argv[] )
 
 	display_teste.setDisplayBrightness(4);
 	
-	display_teste.outputCE();
-	display_teste.outputWR();
-	display_teste.outputFL();
-
-	display_teste.outputADRESS();
-	display_teste.outputDATA();
 
 
 	return EXIT_SUCCESS;
